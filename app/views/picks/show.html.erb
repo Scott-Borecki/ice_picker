@@ -1,0 +1,5 @@
+<h2>Who Breaks the Ice?</h2>
+
+<p><%= @current_pick.who_goes_first %></p>
+
+<%= button_to 'Generate Random Pick', "/picks/#{@random_pick.id}", method: :get %>
