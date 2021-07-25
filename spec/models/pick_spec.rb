@@ -21,7 +21,7 @@ RSpec.describe Pick do
 
         actual = Pick.random
 
-        expect(who_goes_first_collection).to include(actual)
+        expect(who_goes_first_collection).to include(actual.who_goes_first)
       end
     end
   end
