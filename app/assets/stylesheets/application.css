@@ -13,3 +13,123 @@
  *= require_tree .
  *= require_self
  */
+
+html {
+ font-family: sans-serif;
+ text-align: center;
+ -ms-text-size-adjust: 100%;
+ -webkit-text-size-adjust: 100%;
+}
+
+a {
+ border-bottom: 2px solid #c5c5c5;
+ color: deepskyblue;
+ text-decoration: none;
+ transition: all 0.3s;
+}
+
+a:hover {
+ color: #1565C0;
+}
+
+p {
+ line-height: 1.6em;
+}
+
+ul li {
+ line-height: 1.6em;
+}
+
+.side-margins {
+ padding-right: 1.5rem!important;
+ padding-left: 1.5rem!important;
+}
+
+.navigation {
+ display: flex;
+ flex-flow: row wrap;
+ justify-content: flex-start;
+ list-style: none;
+ margin: 0;
+ background: deepskyblue;
+}
+
+.navigation a {
+ text-decoration: none;
+ display: block;
+ padding: 1em;
+ color: white;
+}
+
+.navigation a:hover {
+ background: #1565C0;
+}
+
+.alert {
+ position: relative;
+ padding: .75rem 1.25rem;
+ margin-bottom: 1rem;
+ border: 1px solid transparent;
+ border-radius: .25rem;
+}
+
+.alert-danger {
+ color: #721c24;
+ background-color: #f8d7da;
+ border-color: #f5c6cb;
+}
+
+.container {
+ display: flex;
+ justify-content: flex-start;
+ align-items: center;
+}
+
+.content {
+ padding: 2em 3em;
+ margin: auto;
+ max-width: 1200px;
+}
+
+.indent {
+ margin-left: 2em;
+}
+
+.item-button {
+ margin-right: 0.5em;
+}
+
+.item-title {
+ margin-right: 0.5em;
+ width: 200px;
+}
+
+.line {
+ border-bottom: 2px solid #c5c5c5;
+ margin-bottom: 2em;
+}
+
+.record {
+ margin-bottom: 3em;
+}
+
+input[type=submit] {
+  background-color: deepskyblue;
+  color: white;
+  padding: 12px 20px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+input[type=submit]:hover {
+  background-color: dodgerblue;
+}
+
+form button {
+    border: 1px solid transparent;
+    padding: 1rem 4rem;
+    font-size: 1.25rem;
+    border-radius: .3rem;
+    background: deepskyblue
+}
