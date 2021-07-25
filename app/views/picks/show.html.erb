@@ -1,5 +1,7 @@
-<h2>Who Breaks the Ice?</h2>
+<%= image_tag 'ice-pick', alt: 'Ice Pick', id: 'img-welcome' %>
 
-<p><%= @current_pick.who_goes_first %></p>
+<h1>Who Breaks the Ice?</h1>
+
+<h2><%= @current_pick.who_goes_first %></h2>
 
 <%= button_to 'Generate Random Pick', "/picks/#{@random_pick.id}", method: :get %>

@@ -1,3 +1,6 @@
+<%= image_tag 'ice-pick', alt: 'Ice Pick', id: 'img-welcome' %>
+
 <h1>Welcome to Ice Picker!</h1>
+<h2>Click the button below to break the ice and see who goes first!</h2>
 
 <%= button_to 'Generate Random Pick', "/picks/#{@random_pick.id}", method: :get %>
